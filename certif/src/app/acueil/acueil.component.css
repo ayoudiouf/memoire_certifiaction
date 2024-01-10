@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  .banier{
+    margin-top: 7%;
+  }
+  .banier img{
+    height: 50%;
+   width: 100%;
+  }
+  .col-md-4 img{
+    width: 100%;
+  }
+  button{
+  width: 60%;
+  }
+
+  .videoservice{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 6%;
+  }
+
+  /* .lastactu img{
+    width: 30%;
+    border-radius: 10px;
+
+  } */
+
+  .cardservice
+  {
+    border-radius: 10px;
+    /* background-color: #ffd575; */
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 50px;
+    padding: 10px;
+    position: relative;
+    top: -110px;
+    background-color: white;
+    /* z-index: 5; */
+    margin-left: 60px;
+    box-shadow: 4px 5px 3px #A41034;
+  }
+  .card{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 40px; */
+    padding: 10px;
+    position: relative;
+    top: -110px;
+    background-color: white;
+    /* z-index: 5; */
+    box-shadow: 4px 5px 3px #A41034;
+
+
+  }
+  .lastactu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 15%;
+    gap: 20px;
+  }
+
+  .cartes{
+
+  }
+  .textinfo{
+    width: 350%;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 4px 5px 3px #A41034;
+    position: relative;
+    top: -50px;
+  }
